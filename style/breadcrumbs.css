@@ -1,0 +1,38 @@
+
+  
+  .breadcrumbs__list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+  
+  .breadcrumbs__list-item {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    color: gray;
+    font-weight: 600;
+  }
+  
+  .breadcrumbs__list-item--active {
+    font-weight: 700;
+    color: #3763eb;
+  }
+  
+  .breadcrumbs__list-item:after {
+    content: "—";
+    margin-left: 5px;
+  }
+  
+  .breadcrumbs__list-item:last-child:after {
+    display: none;
+  }
+  
+  .breadcrumbs__link {
+    text-decoration: underline;
+  }
+
+
+  

@@ -1,0 +1,13 @@
+.button__menubutton {
+    border-radius: 50px;
+    border: none;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    height: 40px;
+    background: linear-gradient(151deg, rgba(42,195,254,1) 0%, rgba(97,207,160,1) 50%, rgba(149,218,71,1) 100%);
+
+}

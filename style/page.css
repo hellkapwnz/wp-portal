@@ -1,0 +1,29 @@
+
+.page__container-top {
+    margin-left: 100px;
+}
+
+
+.page__container-top {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.button__back {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button__back-img {
+    width: 22px;
+    height: 20px;
+}
+
+.button__back-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2bc3fd;
+}
