@@ -10,6 +10,26 @@
     height: 100px;
 }
 
+.page__container-bottom {
+    width: 1300px;
+    height: 100%;
+    margin-left: 50px ; 
+    border-radius: 20px;    
+    box-shadow: 1px 1px 10px lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.page__container-cell {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    margin-left: 100px;
+}
+
 .button__back {
     width: 90px;
     display: flex;
@@ -27,3 +47,96 @@
     font-weight: 600;
     color: #2bc3fd;
 }
+
+.page__container-content{
+    width: 750px;
+}
+
+
+.page__title {
+    color: #3763eb;
+    text-align: center;
+}
+
+.infobox {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page__infobox {
+    border: 3px solid #3763eb;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.page__text {
+    font-weight: 600;
+}
+
+.page__text-blue {
+    color: #3763eb;
+    margin-top: 30px;
+}
+
+.page__infobox-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(111deg, rgba(56,100,235,1) 0%, rgba(86,141,246,1) 100%);
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+}
+
+.page__list {
+    list-style-image: url("../img/list-img.png");
+    color: #9fdd55;
+    font-size: 17px;
+    padding-bottom: 20px;
+
+}
+
+.page__list-infobox {
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 10px lightgray;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content:space-between;
+    gap:20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.page__list-infobox-title {
+    color: black;
+    max-width: 200px;
+    flex: 2 2 10%;
+}
+
+.page__list-infobox-text {
+    color:darkgray;
+    flex: 2 2 10%;
+}
+
+.page__exclamation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:30px;
+}
+
+.page__exclamation-img {
+    width: 60px;
+    height: 60px;
+}
+

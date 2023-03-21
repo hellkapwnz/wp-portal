@@ -1,0 +1,44 @@
+.user__card {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.page__users {
+    padding-top: 20px;
+}
+
+.page__user {
+    box-shadow: 1px 1px 10px lightgray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+img.userpic {
+    width: 150px;
+}
+
+.page__user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.user__name {
+    color: #3763eb;
+    font-size: 20px;
+}
+
+.user__job {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.user__contacts {
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+}
